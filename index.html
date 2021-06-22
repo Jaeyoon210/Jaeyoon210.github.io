@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scaleable=yes">
+    <title>Document</title>
+    <style>
+      .header{
+        font-size: 50px;
+        margin: 10px;
+        padding: 10px;
+      }
+      .sub-title{
+        font-size: 40px;
+        margin: 10px;
+        padding: 10px;
+      }
+      .menu{
+        font-size: 30px;
+        border: 4px double gray;
+        padding: 10px 10px;
+        margin: 10px;
+      }
+      .contents{
+        font-size: 20px;
+        margin: 10px;
+        padding: 10px;
+        border: 2px dotted pink;
+      }
+      .footer{
+        font-size: 15px;
+        margin: 10px;
+        padding: 10px;
+        border: 2px dotted pink;
+      }
+      @media (max-width: 800px){
+        .header{
+          font-size: 40px;
+          border: 2px double pink;
+        }
+        .sub-title{
+          font-size: 30px;
+        }
+        .menu{
+          font-size: 20px;
+          border: none;
+        }
+        .contents{
+          font-size: 15px;
+          border: none;
+          color: pink;
+        }
+        .footer{
+          font-size: 10px;
+          border: 1px dashed gray;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">Title</div>
+    <div class="sub-title">Sub-Title</div>
+    <div class="menu">Menu: Home About Contents </div>
+    <div class="contents">
+     <div class="content1">Content 1</div>
+     <div class="content2">Content 2</div>
+     <div class="content3">Content 3</div>
+     <div class="content4">Content 4</div>
+     <div class="content5">Content 5</div>
+    </div>
+    <div class="footer">footer</div>
+  </body>
+</html>
